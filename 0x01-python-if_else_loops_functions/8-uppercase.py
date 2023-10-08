@@ -8,5 +8,7 @@ def uppercase(str):
             char = chr(ord(i))
         elif ord(i) >= 65 and ord(i) <= 90:
             char = chr(ord(i))
+        elif ord(i) >= 48 and ord(i) <= 57:
+            char = chr(ord(i))
         print("{}".format(char), end="")
     print("")
