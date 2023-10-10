@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 
 if __name__ == "__main__":
-    """importing calculator functions"""
+    """
+    This script demonstrates the usage of calculator functions.
+    """
 
     from calculator_1 import add, sub, mul, div
 
